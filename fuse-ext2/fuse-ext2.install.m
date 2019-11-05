@@ -51,6 +51,8 @@
 #include <stdlib.h>
 #include <unistd.h>
 #include <getopt.h>
+#include <sys/types.h>
+typedef __darwin_uuid_string_t uuid_string_t;
 
 #include <Foundation/Foundation.h>
 
